@@ -1,0 +1,69 @@
+LIST OF CBCI ASSET
+
+CBCI:
+id,HostName,Location,Department,IP,Serial Number, Mac Address, Lastname, Firstname, Middlename, Unit, Email, w/ min workstation Form, Remarks, OS, Apex One(On-perm), Apex One (Cloud), Checkpoint Endpoint Security, OfficeScan XG, RAPID 7 Agent, Ownership, Verified, comment
+
+3rd Party:
+id,Hostnam,Location,Department,Managed By,IP,Serial Number, Mac Address, Lastname, Firstname, Middlename, Unit, OS, TMApex(On-Prem), TMapex (Cloud), TM Office XG, RAPID 7 Agent, DLP, Ownership, Remarks
+
+Temp Unit:
+id, Hostname, Location, Department, Lastname, Firstname, IP, Mac Address, Rapid 7 Agent, Apex One (On-Prem), Apex One (Cloud), Checkpoint Endpoint Security)
+
+
+Jumpshot:
+Location, Department, Lastname, Firstname, HostName, IP, Mac Address, Remarks, RAPID 7 Agent, TM Prem, TM Cloud,
+
+Resigned:
+Department, Lastname, Firstname, HostName, IP, Mac Address, 
+
+
+
+Possible table data
+
+id,HostName,Location,Department,IP,Serial Number, Mac Address, Lastname, Firstname, Middlename, Unit, Ownership, Email, Employment Status, Asset Status, w/ min workstation Form, Remarks asset, OS, Apex One(On-perm), Apex One (Cloud), Checkpoint Endpoint Security, Cynet, OfficeScan XG, RAPID 7 Agent, Verified, checked by Cyber, date Released, date Returned, Returned Remarks, comment
+
+
+id		= int					
+HostName	= str
+Location 	= str
+Department 	= str
+IP			= str
+Serial Number	= str
+Mac Address 	= str
+Lastname		= str
+Middlename		= str
+Unit			= str
+Ownership		= str
+Email			= str
+Employment Status	= str
+Asset Status		= str
+w/ min workstation Form		= str
+Remarks asset				= str
+OS							= str
+Apex One(On-perm)			= int
+Apex One (Cloud)			= int
+Checkpoint Endpoint Security	= int
+Cynet						= int
+OfficeScan XG				= int
+RAPID 7 Agent				= int
+Verified					= int
+checked by Cyber			= int
+date Released				= date
+date Returned				= date
+Returned Remarks			= str
+comment						= str
+
+
+
+
+
+
+
+
+
+<td class="td-name">Jomari D. Yom</td>
+					<td class="td-departnemnt">ITSD</td>
+					<td class="td-check-domain"><input type="checkbox" title="already" checked></td>
+					<td class="td-ip">192.168.1.1</td>
+					<td class="td-mac">AW-AW-EW-EW-90-90</td>
+					<td class="td-company">CFS</td>

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>New Tab</title>
+	<link rel="stylesheet" href="css/index_css.css">
+</head>
+<body>
+
+	<header>s</header>
+	<div class="left-panel">
+	</div>
+	<div class="main-container">
+	
+		<section class="content-head">
+		<!-- Search btn -->
+			<div class="btn-search">
+				<div class="text-search">
+					<select>
+						<option>Hostname</option>
+						<option>Name</option>
+						<option>Owner</option>
+						<option>Email</option>
+						<option>Mac</option>
+						<option>Ip</option>
+					</select>
+					<input type="text" placeholder="Enter to search Item">
+				</div>
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+				  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+				</svg>
+				<p>Search</p>
+			</div>
+			
+		<!-- Filter btn -->
+			<div class="btn-filter">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-funnel" viewBox="0 0 16 16">
+				  <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2zm1 .5v1.308l4.372 4.858A.5.5 0 0 1 7 8.5v5.306l2-.666V8.5a.5.5 0 0 1 .128-.334L13.5 3.308V2h-11z"/>
+				</svg>
+				<p class="selector-filter">Filter</p>
+				<div class="pop-filter">
+				</div>
+			</div>
+		
+		<!-- Column btn -->
+			<div class="btn-column">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-layout-sidebar-inset-reverse" viewBox="0 0 16 16">
+				  <path d="M2 2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h12z"/>
+				  <path d="M13 4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V4z"/>
+				</svg>
+				<p class="selector-column">Column</p>
+				<div class="pop-column">
+					<div class="pop-column-g1">
+					<label><input type="checkbox" name="location">Location</label>
+					<label><input type="checkbox" name="department">Department</label>
+					<label><input type="checkbox" name="ip">Ip address</label>
+					<label><input type="checkbox" name="serialnumber">Serial Number</label>
+					<label><input type="checkbox" name="mac">Mac Address</label>
+					<label><input type="checkbox" name="email">Email address</label>
+					<label><input type="checkbox" name="employmentstatus">Employment Status</label>
+					<label><input type="checkbox" name="assetstatus">Asset Status</label>
+					<label><input type="checkbox" name="minworkstation">w/ min workstation</label>
+					</div>
+					<div class="pop-column-g2">
+					<label><input type="checkbox" name="remarksasset">Remarks Asset</label>
+					<label><input type="checkbox" name="os">O.S.</label>
+					<label><input type="checkbox" name="apexperm">Apex Perm</label>
+					<label><input type="checkbox" name="apexcloud">Apex Cloud</label>
+					<label><input type="checkbox" name="checkpoint">Checkpoint</label>
+					<label><input type="checkbox" name="cynet">Cynet</label>
+					<label><input type="checkbox" name="officescan">Office Scan</label>
+					<label><input type="checkbox" name="vpn">VPN</label>
+					<label><input type="checkbox" name="verified">Verified</label>
+					</div>
+					<input class="pop-column-btn" type="button" value="Apply">
+					
+					
+				</div>
+			</div>
+		
+		
+		
+		<!-- Edit btn -->
+			<div class="btn-edit">
+				<p class="selector-edit">Edit&nbsp;</p>
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square selector-edit" viewBox="0 0 16 16">
+				  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+				  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+				</svg>
+				<div class="pop-edit">
+				
+				</div>
+			</div>
+		
+			
+		</section>
+		
+		<section class="content-table">
+			<table>
+				<thead class="thead1">
+				<tr>
+					<th><input class="all-checkbox" type="checkbox" title="select all"></th>
+					<th class="th-hostname">Hostname</th>
+					<th class="th-location">Location</th>
+					<th class="th-department">Department</th>
+					<th class="th-ip">IP Address</th>
+					<th class="th-serial">Serial Number</th>
+					<th class="th-mac">Mac Address</th>
+					<th class="th-lastname">Lasname</th>
+					<th class="th-firstname">Firstname</th>
+					<th class="th-middlename">Middlename</th>
+					<th class="th-unit">Unit</th>
+					<th class="th-ownership">Ownership</th>
+					<th class="th-email">Email</th>
+					<th class="th-employmentstatus">Employee Status</th>
+					<th class="th-assetstatus">Asset Status</th>
+					<th class="th-minworkstation">w/ min work</th>
+					<th class="th-remarksasset">Remarks asset</th>
+					<th class="th-os">O.S</th>
+					<th class="th-apexperm">Apex Perm</th>
+					<th class="th-apexcloud">Apex Cloud</th>
+					<th class="th-checkpoint">Checkpoint</th>
+					<th class="th-cynet">Cynet</th>
+					<th class="th-officescan">Office Scan</th>
+					<th class="th-rapid">Rapid 7 Agent</th>
+					<th class="th-verified">Verified</th>
+					<th class="th-cyber">Checked by Cybersec</th>
+					<th class="th-datereleased">Date Released</th>
+					<th class="th-datereturn">Date Returned</th>
+					<th class="th-remarksreturn">Remarks Return</th>
+					<th class="th-comment">Notes</th>
+					
+				</tr>
+				</thead>
+				
+				<tbody class="tbody1">
+				
+				<tr>
+					<td class="check-box td-check-select"><input type="checkbox" title="check"></td>
+					<td class="td-hostname"><a href="javascript:void(0)">BCLCOM-201</a></td>
+					<td class="td-location">BSC</td>
+					<td class="td-department">ITSD</td>
+					<td class="td-ip">192.24.123.4</td>
+					<td class="td-serial">NXVP23FJLKAJD</td>
+					<td class="td-mac">092359023</td>
+					<td class="td-lastname">Dela Cruz</td>
+					<td class="td-firstname">Pedro</td>
+					<td class="td-middlename">Amorsolo</td>
+					<td class="td-unit">Laptop</td>
+					<td class="td-ownership">CFS</td>
+					<td class="td-email">pdcruz@bayad.com</td>
+					<td class="td-employmentstatus">Active</td>
+					<td class="td-assetstatus">Active</td>
+					<td class="td-minworkstation"></td>
+					<td class="td-remarksasset">Resolved</td>
+					<td class="td-os">Windows10</td>
+					<td class="td-apexperm check-box"><input type="checkbox" checked></td>
+					<td class="td-apexcloud check-box"><input type="checkbox" checked></td>
+					<td class="td-checkpoint check-box"><input type="checkbox" checked></td>
+					<td class="td-cynet check-box"><input type="checkbox" checked></td>
+					<td class="td-officescan check-box"><input type="checkbox" checked></td>
+					<td class="td-rapid check-box"><input type="checkbox" checked></td>
+					<td class="td-verified check-box"><input type="checkbox" checked></td>
+					<td class="td-cyber"><input type="checkbox" checked></td>
+					<td class="td-datereleased">5/23/2019</td>
+					<td class="td-datereturn">5/23/2151</td>
+					<td class="td-remarksreturn">Resigned na e</td>
+					<td class="td-comment">Las as f</td>
+				
+				</tr>
+				
+				<tr>
+					<td class="check-box td-check-select"><input type="checkbox" title="check"></td>
+					<td class="td-hostname"><a href="javascript:void(0)">BCLCOM-201</a></td>
+					<td class="td-location">BSC</td>
+					<td class="td-department">ITSD</td>
+					<td class="td-ip">192.24.123.4</td>
+					<td class="td-serial">NXVP23FJLKAJD</td>
+					<td class="td-mac">092359023</td>
+					<td class="td-lastname">Dela Cruz</td>
+					<td class="td-firstname">Pedro</td>
+					<td class="td-middlename">Amorsolo</td>
+					<td class="td-unit">Laptop</td>
+					<td class="td-ownership">CFS</td>
+					<td class="td-email">pdcruz@bayad.com</td>
+					<td class="td-employmentstatus">Active</td>
+					<td class="td-assetstatus">Active</td>
+					<td class="td-minworkstation"></td>
+					<td class="td-remarksasset">Resolved</td>
+					<td class="td-os">Windows10</td>
+					<td class="td-apexperm check-box"><input type="checkbox" checked></td>
+					<td class="td-apexcloud check-box"><input type="checkbox" checked></td>
+					<td class="td-checkpoint check-box"><input type="checkbox" checked></td>
+					<td class="td-cynet check-box"><input type="checkbox" checked></td>
+					<td class="td-officescan check-box"><input type="checkbox" checked></td>
+					<td class="td-rapid check-box"><input type="checkbox" checked></td>
+					<td class="td-verified check-box"><input type="checkbox" checked></td>
+					<td class="td-cyber"><input type="checkbox" checked></td>
+					<td class="td-datereleased">5/23/2019</td>
+					<td class="td-datereturn">5/23/2151</td>
+					<td class="td-remarksreturn">Resigned na e</td>
+					<td class="td-comment">Las as f</td>
+				
+				</tr>
+				
+				<tr>
+					<td class="check-box td-check-select"><input type="checkbox" title="check"></td>
+					<td class="td-hostname"><a href="javascript:void(0)">BCLCOM-201</a></td>
+					<td class="td-location">BSC</td>
+					<td class="td-department">ITSD</td>
+					<td class="td-ip">192.24.123.4</td>
+					<td class="td-serial">NXVP23FJLKAJD</td>
+					<td class="td-mac">092359023</td>
+					<td class="td-lastname">Dela Cruz</td>
+					<td class="td-firstname">Pedro</td>
+					<td class="td-middlename">Amorsolo</td>
+					<td class="td-unit">Laptop</td>
+					<td class="td-ownership">CFS</td>
+					<td class="td-email">pdcruz@bayad.com</td>
+					<td class="td-employmentstatus">Active</td>
+					<td class="td-assetstatus">Active</td>
+					<td class="td-minworkstation"></td>
+					<td class="td-remarksasset">Resolved</td>
+					<td class="td-os">Windows10</td>
+					<td class="td-apexperm check-box"><input type="checkbox" checked></td>
+					<td class="td-apexcloud check-box"><input type="checkbox" checked></td>
+					<td class="td-checkpoint check-box"><input type="checkbox" checked></td>
+					<td class="td-cynet check-box"><input type="checkbox" checked></td>
+					<td class="td-officescan check-box"><input type="checkbox" checked></td>
+					<td class="td-rapid check-box"><input type="checkbox" checked></td>
+					<td class="td-verified check-box"><input type="checkbox" checked></td>
+					<td class="td-cyber"><input type="checkbox" checked></td>
+					<td class="td-datereleased">5/23/2019</td>
+					<td class="td-datereturn">5/23/2151</td>
+					<td class="td-remarksreturn">Resigned na e</td>
+					<td class="td-comment">Las as f</td>
+				
+				</tr>
+				
+				<tr>
+					<td class="check-box td-check-select"><input type="checkbox" title="check"></td>
+					<td class="td-hostname"><a href="javascript:void(0)">BCLCOM-201</a></td>
+					<td class="td-location">BSC</td>
+					<td class="td-department">ITSD</td>
+					<td class="td-ip">192.24.123.4</td>
+					<td class="td-serial">NXVP23FJLKAJD</td>
+					<td class="td-mac">092359023</td>
+					<td class="td-lastname">Dela Cruz</td>
+					<td class="td-firstname">Pedro</td>
+					<td class="td-middlename">Amorsolo</td>
+					<td class="td-unit">Laptop</td>
+					<td class="td-ownership">CFS</td>
+					<td class="td-email">pdcruz@bayad.com</td>
+					<td class="td-employmentstatus">Active</td>
+					<td class="td-assetstatus">Active</td>
+					<td class="td-minworkstation"></td>
+					<td class="td-remarksasset">Resolved</td>
+					<td class="td-os">Windows10</td>
+					<td class="td-apexperm check-box"><input type="checkbox" checked></td>
+					<td class="td-apexcloud check-box"><input type="checkbox" checked></td>
+					<td class="td-checkpoint check-box"><input type="checkbox" checked></td>
+					<td class="td-cynet check-box"><input type="checkbox" checked></td>
+					<td class="td-officescan check-box"><input type="checkbox" checked></td>
+					<td class="td-rapid check-box"><input type="checkbox" checked></td>
+					<td class="td-verified check-box"><input type="checkbox" checked></td>
+					<td class="td-cyber"><input type="checkbox" checked></td>
+					<td class="td-datereleased">5/23/2019</td>
+					<td class="td-datereturn">5/23/2151</td>
+					<td class="td-remarksreturn">Resigned na e</td>
+					<td class="td-comment">Las as f</td>
+				
+				</tr>
+				
+				
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+				</tbody>
+				
+	
+			</table>
+		</section>
+		
+		<!-- POP UP CONTAINER test -->
+			<!-- <div class="pop-container"></div> -->
+	</div>
+	
+	
+	<script src="js/classes.js"></script> 
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+2:03 PM 5/22/20212:03 PM 5/22/2021filter option
+
+location:
+ALL
+BSC
+OCC
+NORTH-LUZON
+VIZ-MIN
+OTHERS
+
+
+UNIT:
+ALL
+Laptop
+Desktop
+MacBook
+Android
+Iphone/Iphone
+
+
+OS:
+ALL
+WINDOWS 10
+WINDOWS 8.1
+WINDOWS 8
+WINDOWS 7
+WINDOWS XP
+MAC OS
+
+
+OWNERSHIP:
+ALL
+CBCI
+CFS
+
+
+Employee/Asset
+Active
+Resigned
